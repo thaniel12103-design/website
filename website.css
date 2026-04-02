@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fit Gym</title>
+  <link rel="stylesheet" href="website.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>REBEL FITNESS STUDIO</h1>
+
+  <!-- Hamburger Menu -->
+  <div class="menu-toggle">☰</div>
+
+  <nav id="navMenu">
+    <a href="website.html" >Home</a>
+    <a href="about.html">About</a>
+    <a href="plans.html">Plans</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Build Your Dream Body</h2>
+  <p>Join the best gym in your city</p>
+</section>
+
+<section class="section trainers">
+  <h2>Meet Our Trainers</h2>
+
+  <div class="trainer-grid">
+    <div class="trainer">
+      <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba" alt="Trainer">
+      <h3>Arjun</h3>
+      <p>Strength Coach</p>
+    </div>
+
+    <div class="trainer">
+      <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="">
+      <h3>Priya</h3>
+      <p>Yoga Trainer</p>
+    </div>
+
+    <div class="trainer">
+      <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba" alt="">
+      <h3>Rahul</h3>
+      <p>Fitness Expert</p>
+    </div>
+  </div>
+</section>
+<section class="section testimonials">
+  <h2>What Our Members Say</h2>
+
+  <div class="testimonial-box">
+    <p>"Amazing gym! I lost 10kg in 3 months."</p>
+    <h4>- Karthik</h4>
+  </div>
+
+  <div class="testimonial-box">
+    <p>"Best trainers and great atmosphere."</p>
+    <h4>- Sneha</h4>
+  </div>
+</section>
+
+<section class="features">
+  <h2>Why Choose Us</h2>
+
+  <div class="features-grid">
+    <div class="feature">
+      <h3>💪 Modern Equipment</h3>
+      <p>Latest machines available</p>
+    </div>
+
+    <div class="feature">
+      <h3>🏆 Expert Trainers</h3>
+      <p>Certified professionals</p>
+    </div>
+
+    <div class="feature">
+      <h3>⏰ Flexible Timing</h3>
+      <p>Open all day</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer>
+  <p>© 2026 Rebel Fitness Studio Unisex Gym</p>
+</footer>
+
+<script src="website.js"></script>
+</body>
+</html>
