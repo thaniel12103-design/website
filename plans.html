@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plans - Rebel Fitness Studio</title>
+  <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>REBEL FITNESS STUDIO</h1>
+
+  <div class="menu-toggle">☰</div>
+
+  <nav id="navMenu">
+    <a href="website.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="plans.html" class="active">Plans</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="plans-hero">
+  <h2>Our Membership Plans</h2>
+  <p>Choose the plan that fits your fitness goals</p>
+</section>
+
+<!-- PLANS -->
+<section class="plans-page">
+
+  <div class="plan-card">
+    <h3>Basic</h3>
+    <h2>₹999 / month</h2>
+    <ul>
+      <li>Gym Access</li>
+      <li>Basic Equipment</li>
+      <li>Locker Facility</li>
+    </ul>
+    <button onclick="joinPlan('Basic')">Join Now</button>
+  </div>
+
+  <div class="plan-card premium">
+    <h3>Standard</h3>
+    <h2>₹1499 / month</h2>
+    <ul>
+      <li>All Basic Features</li>
+      <li>Trainer Guidance</li>
+      <li>Diet Plan</li>
+    </ul>
+    <button onclick="joinPlan('Standard')">Join Now</button>
+  </div>
+
+  <div class="plan-card">
+    <h3>Premium</h3>
+    <h2>₹1999 / month</h2>
+    <ul>
+      <li>Personal Trainer</li>
+      <li>Advanced Equipment</li>
+      <li>Priority Support</li>
+    </ul>
+    <button onclick="joinPlan('Premium')">Join Now</button>
+  </div>
+
+</section>
+
+<script src="website.js"></script>
+</body>
+</html>
